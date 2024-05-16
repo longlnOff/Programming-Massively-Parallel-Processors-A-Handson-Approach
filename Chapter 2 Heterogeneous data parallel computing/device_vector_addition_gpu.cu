@@ -2,16 +2,16 @@
 #include <iomanip>
 
 __global__
-void vecAddKernel(float* A, float* B, float* C, size_t N)
+void vecAddKernel(float* A, float* B, float* C, int N)
 {
-    size_t i = threadIdx.x + blockDim.x * blockIdx.x;
+    int i = threadIdx.x + blockDim.x * blockIdx.x;
     if (i < N)
         C[i] = A[i] + B[i];
     
 }
 
 void vecAdd(float* A, float* B, float* C, int N) {
-    size_t size = N * sizeof(float);
+    int size = N * sizeof(float);
     float* A_d, * B_d, * C_d;
 
     // Part 1: Allocate device memory for A, B and C
@@ -38,12 +38,11 @@ void vecAdd(float* A, float* B, float* C, int N) {
 
 int main(void)
 {
-    size_t N = 1000;
+    int N = 1000;
     std:: cout << "Number of elements in array: ";
     std::cout << N
-              << std::setw(8)
               << std::endl;
-    size_t size = N * sizeof(float);
+    int size = N * sizeof(float);
 
     float* A_h {(float*)malloc(size)};
     float* B_h {(float*)malloc(size)};
@@ -51,8 +50,17 @@ int main(void)
 
     vecAdd(A_h, B_h, C_h, N);
 
-    for (size_t i {0}; i < 10; ++i)
-        std::cout << A_h[i] << std::endl;
+    for (int i = 0; i < N; i++) {
+        A_h[i] = 1.0f;
+        B_h[i] = 2.0f;
+    }
+
+    for (int i {0}; i < 10; ++i)
+    {
+        std::cout << "A: " << A_h[i];
+        std::cout << " B: " << B_h[i];
+        std::cout << " C: " << C_h[i] << std::endl;
+    }
 
 
     return 0;

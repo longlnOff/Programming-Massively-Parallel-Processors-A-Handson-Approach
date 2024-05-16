@@ -1,35 +1,7 @@
-### CMakeLists.txt for CUDA
-
-cmake_minimum_required(VERSION 2.8)
-find_package(
-    CUDA QUIET REQUIRED
-    OpenCV REQUIRED
-    )
-
-# Pass options to NVCC
-set(
-    CUDA_NVCC_FLAGS
-    ${CUDA_NVCC_FLAGS};
-    -O3 -gencode arch=compute_22,code=sm_22
-    )
-
-# Specify include directories
-include_directories(
-    kernels
-    utility
-    ${OpenCV_INCLUDE_DIRS}
-    )
-
-# Specify library paths
-link_directories(
-    )
-
-# For compilation ...
-# Specify target & source files to compile it from
-cuda_add_executable(
-    ColoredImageToGrayscale ColoredImageToGrayscale.cu
-    )
-
-# For linking ...
-# Specify target & libraries to link it with
-target_link_libraries( ColoredImageToGrayscale ${OpenCV_LIBS} )
+cmake_minimum_required(VERSION 3.8)
+project(test LANGUAGES CXX CUDA)
+find_package(OpenCV REQUIRED)
+# cmake_policy(CUDA_ARCHITECTURES CMP0122)
+# compile the target
+add_executable(run main.cpp ColoredImageToGrayscale.cu)
+target_link_libraries(run PRIVATE cudart ${OpenCV_LIBS})

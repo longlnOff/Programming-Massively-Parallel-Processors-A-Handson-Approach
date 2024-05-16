@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-8dc05af7b1cb3ee03c1130dc1c0fee4e CMakeFiles/ColoredImageToGrayscale.dir/ColoredImageToGrayscale_generated_ColoredImageToGrayscale.cu.o

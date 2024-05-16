@@ -1,4 +1,4 @@
-# Install script for directory: /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data
+# Install script for directory: /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

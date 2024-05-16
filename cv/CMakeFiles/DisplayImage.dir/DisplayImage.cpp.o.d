@@ -1,5 +1,5 @@
 CMakeFiles/DisplayImage.dir/DisplayImage.cpp.o: \
- /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/cv/DisplayImage.cpp \
+ /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/cv/DisplayImage.cpp \
  /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/opencv.hpp \
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv4/opencv2/core.hpp \
