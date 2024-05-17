@@ -48,12 +48,13 @@ int main(void)
     float* B_h {(float*)malloc(size)};
     float* C_h {(float*)malloc(size)};
 
-    vecAdd(A_h, B_h, C_h, N);
-
     for (int i = 0; i < N; i++) {
         A_h[i] = 1.0f;
         B_h[i] = 2.0f;
     }
+
+    vecAdd(A_h, B_h, C_h, N);
+
 
     for (int i {0}; i < 10; ++i)
     {

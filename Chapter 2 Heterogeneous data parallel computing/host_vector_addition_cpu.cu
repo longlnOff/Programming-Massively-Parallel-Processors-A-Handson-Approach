@@ -21,7 +21,25 @@ int main(void)
         B_h[i] = 2.0f;
     }
 
+
+    for (int i = 0; i < N; i++) 
+    {
+        A_h[i] = 1.0f;
+        B_h[i] = 2.0f;
+    }
+
     vecAdd(A_h, B_h, C_h, N);
+
+
+
+    for (int i {0}; i < 10; ++i)
+    {
+        std::cout << "A: " << A_h[i];
+        std::cout << " B: " << B_h[i];
+        std::cout << " C: " << C_h[i] << std::endl;
+    }
+
+
 
     free(A_h);
     free(B_h);
