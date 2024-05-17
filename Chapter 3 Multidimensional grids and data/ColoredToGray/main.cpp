@@ -14,12 +14,9 @@ int main()
             return -1;
         }
  
-    u_char* input {};
-    u_char* output {};
+    u_char* input {new u_char[image.rows * image.cols * 3]};
+    u_char* output {new u_char[image.rows * image.cols]};
     
-
-    input = static_cast<u_char*>(malloc(image.rows * image.cols * 3));
-    output = static_cast<u_char*>(malloc(image.rows * image.cols));
     memcpy(input, image.data, image.rows * image.cols * 3);
 
     Colored2Grayscale(input, output, image.rows, image.cols);

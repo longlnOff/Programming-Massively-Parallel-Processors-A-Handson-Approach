@@ -44,9 +44,10 @@ int main(void)
               << std::endl;
     int size = N * sizeof(float);
 
-    float* A_h {static_cast<float*>(malloc(size))};
-    float* B_h {static_cast<float*>(malloc(size))};
-    float* C_h {static_cast<float*>(malloc(size))};
+    float* A_h {new float[size]};
+    float* B_h {new float[size]};
+    float* C_h {new float[size]};
+
 
 
     for (int i = 0; i < N; i++) {
