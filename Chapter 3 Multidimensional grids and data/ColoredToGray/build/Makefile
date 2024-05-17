@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/longln/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = /home/long/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /home/longln/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm -f
+RM = /home/long/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray"
+CMAKE_SOURCE_DIR = "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build"
+CMAKE_BINARY_DIR = "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = "/home/longln/SourceCode/Programming-Massively-Parallel-Proce
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	/home/longln/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/long/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/home/longln/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/long/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/ColoredImageToGrayscale.cu" "CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o" "gcc" "CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o.d"
-  "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/main.cpp" "CMakeFiles/run.dir/main.cpp.o" "gcc" "CMakeFiles/run.dir/main.cpp.o.d"
+  "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/ColoredImageToGrayscale.cu" "CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o" "gcc" "CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o.d"
+  "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/main.cpp" "CMakeFiles/run.dir/main.cpp.o" "gcc" "CMakeFiles/run.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

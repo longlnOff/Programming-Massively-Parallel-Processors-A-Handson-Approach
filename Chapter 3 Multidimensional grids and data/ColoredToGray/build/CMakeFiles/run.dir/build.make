@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/longln/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = /home/long/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /home/longln/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm -f
+RM = /home/long/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray"
+CMAKE_SOURCE_DIR = "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build"
+CMAKE_BINARY_DIR = "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/run.dir/depend.make
@@ -70,25 +70,25 @@ include CMakeFiles/run.dir/progress.make
 include CMakeFiles/run.dir/flags.make
 
 CMakeFiles/run.dir/main.cpp.o: CMakeFiles/run.dir/flags.make
-CMakeFiles/run.dir/main.cpp.o: /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/main.cpp
+CMakeFiles/run.dir/main.cpp.o: /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/main.cpp
 CMakeFiles/run.dir/main.cpp.o: CMakeFiles/run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.dir/main.cpp.o -MF CMakeFiles/run.dir/main.cpp.o.d -o CMakeFiles/run.dir/main.cpp.o -c "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run.dir/main.cpp.o -MF CMakeFiles/run.dir/main.cpp.o.d -o CMakeFiles/run.dir/main.cpp.o -c "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/main.cpp"
 
 CMakeFiles/run.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/main.cpp" > CMakeFiles/run.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/main.cpp" > CMakeFiles/run.dir/main.cpp.i
 
 CMakeFiles/run.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/main.cpp" -o CMakeFiles/run.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/main.cpp" -o CMakeFiles/run.dir/main.cpp.s
 
 CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o: CMakeFiles/run.dir/flags.make
 CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o: CMakeFiles/run.dir/includes_CUDA.rsp
-CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o: /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/ColoredImageToGrayscale.cu
+CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o: /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/ColoredImageToGrayscale.cu
 CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o: CMakeFiles/run.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o"
-	/usr/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o -MF CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o.d -x cu -c "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/ColoredImageToGrayscale.cu" -o CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o"
+	/usr/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o -MF CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o.d -x cu -c "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/ColoredImageToGrayscale.cu" -o CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o
 
 CMakeFiles/run.dir/ColoredImageToGrayscale.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CUDA source to CMakeFiles/run.dir/ColoredImageToGrayscale.cu.i"
@@ -125,7 +125,7 @@ run: /usr/local/lib/libopencv_flann.so.4.9.0
 run: /usr/local/lib/libopencv_imgproc.so.4.9.0
 run: /usr/local/lib/libopencv_core.so.4.9.0
 run: CMakeFiles/run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray" "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray" "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build" "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build" "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles/run.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray" "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray" "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build" "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build" "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/CMakeFiles/run.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/run.dir/depend
 
