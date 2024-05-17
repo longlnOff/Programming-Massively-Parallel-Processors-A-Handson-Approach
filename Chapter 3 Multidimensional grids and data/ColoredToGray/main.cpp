@@ -5,7 +5,6 @@
 using namespace cv; 
 
 
-
 int main()
 {
     Mat image {imread("../Images/ship.png", IMREAD_COLOR)};
@@ -16,10 +15,11 @@ int main()
         }
  
     u_char* input {};
-    u_char* output {}; 
+    u_char* output {};
+    
 
-    input = (u_char*)malloc(image.rows * image.cols * 3);
-    output = (u_char*)malloc(image.rows * image.cols);
+    input = static_cast<u_char*>(malloc(image.rows * image.cols * 3));
+    output = static_cast<u_char*>(malloc(image.rows * image.cols));
     memcpy(input, image.data, image.rows * image.cols * 3);
 
     Colored2Grayscale(input, output, image.rows, image.cols);
@@ -31,7 +31,6 @@ int main()
 
     imwrite("../Images/gray_ship_device.png", grayImage_device);
     imwrite("../Images/gray_ship_host.png", grayImage_host);
-
 
 
     return 0;

@@ -4,7 +4,7 @@
 
 // Convert colored image to grayscale kernel
 __global__
-void Colored2GrayscaleKernel(unsigned char* Pin, unsigned char* Pout, int width, int height)
+void Colored2GrayscaleKernel(u_char* Pin, u_char* Pout, int width, int height)
 {
     size_t row_index {blockDim.y * blockIdx.y + threadIdx.y};
     size_t column_index {blockDim.x * blockIdx.x + threadIdx.x};
@@ -19,9 +19,9 @@ void Colored2GrayscaleKernel(unsigned char* Pin, unsigned char* Pout, int width,
         size_t ColoredOffset {GrayOffset * 3};
 
         // Get RGB values
-        unsigned char RedValue      = Pin[ColoredOffset + 0];
-        unsigned char GreenValue    = Pin[ColoredOffset + 1];
-        unsigned char BlueValue     = Pin[ColoredOffset + 2];
+        u_char RedValue      = Pin[ColoredOffset + 0];
+        u_char GreenValue    = Pin[ColoredOffset + 1];
+        u_char BlueValue     = Pin[ColoredOffset + 2];
 
         // Get gray value from RGB
         Pout[GrayOffset] = 0.21f*RedValue + 0.71f*GreenValue + 0.07f*BlueValue;
@@ -29,14 +29,14 @@ void Colored2GrayscaleKernel(unsigned char* Pin, unsigned char* Pout, int width,
 
 }
 
-void Colored2Grayscale(unsigned char* Pin_h, unsigned char* Pout_h, int width, int height)
+void Colored2Grayscale(u_char* Pin_h, u_char* Pout_h, int width, int height)
 {
 
-    size_t SizeAllocColored {static_cast<size_t>(3 * width * height * sizeof(unsigned char))};
-    size_t SizeAllocGray {static_cast<size_t>(width * height * sizeof(unsigned char))};
+    size_t SizeAllocColored {static_cast<size_t>(3 * width * height * sizeof(u_char))};
+    size_t SizeAllocGray {static_cast<size_t>(width * height * sizeof(u_char))};
     
-    unsigned char* Pin_d {};
-    unsigned char* Pout_d {};
+    u_char* Pin_d {};
+    u_char* Pout_d {};
 
     // Allocate device's memory for Pin and Pout
     assert(cudaMalloc((void **) &Pin_d, SizeAllocColored) == cudaSuccess);
