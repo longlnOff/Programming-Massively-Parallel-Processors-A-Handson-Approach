@@ -35,8 +35,8 @@ void Colored2Grayscale(u_char* Pin_h, u_char* Pout_h, int width, int height)
     size_t SizeAllocColored {static_cast<size_t>(3 * width * height * sizeof(u_char))};
     size_t SizeAllocGray {static_cast<size_t>(width * height * sizeof(u_char))};
     
-    u_char* Pin_d {};
-    u_char* Pout_d {};
+    u_char* Pin_d {nullptr};
+    u_char* Pout_d {nullptr};
 
     // Allocate device's memory for Pin and Pout
     assert(cudaMalloc((void **) &Pin_d, SizeAllocColored) == cudaSuccess);

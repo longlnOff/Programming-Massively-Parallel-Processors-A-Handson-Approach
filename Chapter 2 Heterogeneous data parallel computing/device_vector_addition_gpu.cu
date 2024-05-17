@@ -12,7 +12,9 @@ void vecAddKernel(float* A, float* B, float* C, int N)
 
 void vecAdd(float* A, float* B, float* C, int N) {
     int size = N * sizeof(float);
-    float* A_d, * B_d, * C_d;
+    float* A_d {nullptr};
+    float* B_d {nullptr};
+    float* C_d {nullptr};
 
     // Part 1: Allocate device memory for A, B and C
     // Copy A and B to device memory
