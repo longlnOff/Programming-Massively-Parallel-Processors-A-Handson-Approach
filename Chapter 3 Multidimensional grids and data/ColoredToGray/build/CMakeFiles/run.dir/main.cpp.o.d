@@ -1,5 +1,5 @@
 CMakeFiles/run.dir/main.cpp.o: \
- /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/main.cpp \
+ /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/main.cpp \
  /usr/include/stdc-predef.h /usr/local/include/opencv4/opencv2/core.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
  /usr/local/include/opencv4/opencv2/core/version.hpp \
@@ -258,5 +258,5 @@ CMakeFiles/run.dir/main.cpp.o: \
  /usr/local/include/opencv4/opencv2/core/ovx.hpp \
  /usr/local/include/opencv4/opencv2/core/cvdef.h \
  /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
- /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/ColoredImageToGrayscale.h \
+ /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/ColoredImageToGrayscale.h \
  /usr/include/c++/11/iostream

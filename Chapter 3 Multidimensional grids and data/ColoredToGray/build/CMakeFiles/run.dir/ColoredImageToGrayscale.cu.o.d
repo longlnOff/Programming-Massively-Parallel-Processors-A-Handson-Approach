@@ -1,4 +1,4 @@
-CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o : /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/ColoredImageToGrayscale.cu \
+CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o : /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/ColoredImageToGrayscale.cu \
     /usr/include/stdc-predef.h \
     /usr/include/cuda_runtime.h \
     /usr/include/crt/host_config.h \
@@ -177,7 +177,7 @@ CMakeFiles/run.dir/ColoredImageToGrayscale.cu.o : /home/long/SourceCode/Programm
     /usr/include/texture_indirect_functions.h \
     /usr/include/surface_indirect_functions.h \
     /usr/include/device_launch_parameters.h \
-    /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/ColoredImageToGrayscale.h \
+    /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter\ 3\ Multidimensional\ grids\ and\ data/ColoredToGray/ColoredImageToGrayscale.h \
     /usr/include/c++/11/iostream \
     /usr/include/c++/11/ostream \
     /usr/include/c++/11/ios \

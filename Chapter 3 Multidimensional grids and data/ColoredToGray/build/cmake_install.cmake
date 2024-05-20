@@ -1,4 +1,4 @@
-# Install script for directory: /home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray
+# Install script for directory: /home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/long/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/ColoredToGray/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
