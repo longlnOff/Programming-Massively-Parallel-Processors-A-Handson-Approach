@@ -1,0 +1,3 @@
+/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/Exercise/1/build/CMakeFiles/run.dir
+/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/Exercise/1/build/CMakeFiles/edit_cache.dir
+/home/longln/SourceCode/Programming-Massively-Parallel-Processors-A-Handson-Approach/Chapter 3 Multidimensional grids and data/Exercise/1/build/CMakeFiles/rebuild_cache.dir
